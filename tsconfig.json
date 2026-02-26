@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "target": "esnext",
+    "types": ["jest", "node"], // <--- INI KUNCINYA
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  }
+}
