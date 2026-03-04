@@ -9,10 +9,12 @@ describe("Properties", () => {
 
     constructor(id: number, name: string) {
       //this untuk mengakses properti di class
-      
+
       this.id = id;
       this.name = name;
     }
+
+    //method sayHello
     sayHello(name: string): void {
       console.log(`Hello ${name},my name is ${this.name}`);
     }
