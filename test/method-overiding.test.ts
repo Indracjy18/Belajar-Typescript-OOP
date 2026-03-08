@@ -1,4 +1,5 @@
 describe("Method Overiding", () => {
+  //Parent class
   class Person {
     nama: string;
     constructor(nama: string) {
@@ -26,6 +27,8 @@ describe("Method Overiding", () => {
       this.urmanager = urmanager;
     }
     sayHello(nama: string): void {
+      // super.sayHello(nama); // <- cara panggil parent method
+      // console.log(`And i am also your manager, pak ${this.urmanager}`);
       console.log(
         `hello ${nama}, im ${this.nama} from department ${this.departement} and your  manager pak ${this.urmanager}`,
       );
